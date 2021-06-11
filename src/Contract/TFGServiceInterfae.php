@@ -3,7 +3,7 @@
 declare(strict_types=1);
 namespace GiocoPlus\TFG\Contract;
 
-interface TFGServiceInterfae
+interface TFGServiceInterface
 {
     /**
      * 遊戲啟動
