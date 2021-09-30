@@ -22,9 +22,10 @@ interface TFGServiceInterface
      * @param string $op_code
      * @param string $account
      * @param string $bet_id
+     * @param string $vendor_code
      * @return mixed
      */
-    function gameDetail(string $op_code, string $account, string $bet_id);
+    function gameDetail(string $op_code, string $account, string $bet_id, string $vendor_code);
 
     /**
      * 抓取遊戲紀錄
