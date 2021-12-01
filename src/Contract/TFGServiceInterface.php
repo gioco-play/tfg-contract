@@ -13,9 +13,10 @@ interface TFGServiceInterface
      * @param string $account
      * @param string $game_code
      * @param string $language
+     * @param string $odd_type
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $vendor_code, string $account, string $game_code, string $language);
+    function gameLaunch(string $op_code, string $vendor_code, string $account, string $game_code, string $language, string $odd_type);
 
     /**
      * 遊戲詳情
